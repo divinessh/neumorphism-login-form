@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Login Form</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+      ::selection{
+        background:royalblue;
+        color:white;  
+      }
+      
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            flex-direction:column;
+            margin:0;
+            min-height: 100vh;
+            background: #e0e0e0;
+            font-family: Poppins, sans-serif;
+        }
+        .login-container {
+            background: #e0e0e0;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 8px 8px 16px #b8b8b8, -8px -8px 16px #ffffff;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .input-field {
+            font-family:poppins;
+            width: 100%;
+            padding: 20px;
+            margin: 10px 0 ;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background: #e0e0e0;
+            box-shadow: inset 4px 4px 8px #b8b8b8, inset -4px -4px 8px #ffffff;
+            font-size: 16px;
+        }
+        .login-btn {
+            font-family:poppins;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background: #e0e0e0;
+            box-shadow: 4px 4px 8px #b8b8b8, -4px -4px 8px #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover{
+          color:royalblue;
+          transition:0.3s;
+        }
+        .login-btn:active {
+            box-shadow: inset 4px 4px 8px #b8b8b8, inset -4px -4px 8px #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Neumorphism Login Form</h2>
+        <input type="text" class="input-field" placeholder="Username">
+        <input type="password" class="input-field" placeholder="Password">
+        <button class="login-btn">Login</button>
+    </div>
+</body>
+</html>
